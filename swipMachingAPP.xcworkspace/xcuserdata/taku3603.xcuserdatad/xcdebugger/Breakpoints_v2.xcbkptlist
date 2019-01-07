@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "swipMachingAPP/Controllers/RegistrationController.swift"
+            timestampString = "567239932.467567"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "149"
+            endingLineNumber = "149"
+            landmarkName = "setupRegistrationViewModelObserver()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "swipMachingAPP.RegistrationController.(setupRegistrationViewModelObserver in _4D4EBAA755EFC125A60CBC98829D7549)() -&gt; ()"
+                  moduleName = "swipMachingAPP"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/taku3603/Documents/swipMachingAPP/swipMachingAPP/Controllers/RegistrationController.swift"
+                  timestampString = "566622332.416575"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "146"
+                  endingLineNumber = "146"
+                  offsetFromSymbolStart = "332">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Optional&lt;__C.UIImage&gt;) -&gt; () in swipMachingAPP.RegistrationController.(setupRegistrationViewModelObserver in _4D4EBAA755EFC125A60CBC98829D7549)() -&gt; ()"
+                  moduleName = "swipMachingAPP"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/taku3603/Documents/swipMachingAPP/swipMachingAPP/Controllers/RegistrationController.swift"
+                  timestampString = "566622332.435504"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "146"
+                  endingLineNumber = "146"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

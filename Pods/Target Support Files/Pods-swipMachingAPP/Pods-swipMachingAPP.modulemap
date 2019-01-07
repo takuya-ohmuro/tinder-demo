@@ -1,0 +1,6 @@
+framework module Pods_swipMachingAPP {
+  umbrella header "Pods-swipMachingAPP-umbrella.h"
+
+  export *
+  module * { export * }
+}

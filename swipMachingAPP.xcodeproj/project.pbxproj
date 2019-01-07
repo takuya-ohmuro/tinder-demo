@@ -7,21 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00E7D92A6FD86965CDE10CFF /* Pods_swipMachingAPP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A754A632F9564506D5BF136 /* Pods_swipMachingAPP.framework */; };
 		B82A443E218C23750061C750 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82A443D218C23750061C750 /* AppDelegate.swift */; };
-		B82A4440218C23750061C750 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82A443F218C23750061C750 /* ViewController.swift */; };
+		B82A4440218C23750061C750 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82A443F218C23750061C750 /* HomeController.swift */; };
 		B82A4443218C23750061C750 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B82A4441218C23750061C750 /* Main.storyboard */; };
 		B82A4445218C23760061C750 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B82A4444218C23760061C750 /* Assets.xcassets */; };
 		B82A4448218C23760061C750 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B82A4446218C23760061C750 /* LaunchScreen.storyboard */; };
+		B82A4451218C26020061C750 /* Extensions+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82A4450218C26020061C750 /* Extensions+UIView.swift */; };
+		B82A4454218C2CF00061C750 /* HomeBottomControlsStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82A4453218C2CF00061C750 /* HomeBottomControlsStackView.swift */; };
+		B82A445621908CA90061C750 /* TopNavigationStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82A445521908CA90061C750 /* TopNavigationStackView.swift */; };
+		B82A44582191CE610061C750 /* CardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82A44572191CE610061C750 /* CardsView.swift */; };
+		B82A445B2191E12B0061C750 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82A445A2191E12B0061C750 /* User.swift */; };
+		B82A445F219478E80061C750 /* CardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82A445E219478E80061C750 /* CardViewModel.swift */; };
+		B82A44612194816B0061C750 /* Advertiser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82A44602194816B0061C750 /* Advertiser.swift */; };
+		B883A52B219B0889007FEB64 /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B883A52A219B0888007FEB64 /* RegistrationController.swift */; };
+		B883A52D219B10B5007FEB64 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B883A52C219B10B5007FEB64 /* CustomTextField.swift */; };
+		B883A52F21A14F35007FEB64 /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B883A52E21A14F35007FEB64 /* RegistrationViewModel.swift */; };
+		B883A53321A1B559007FEB64 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B883A53221A1B559007FEB64 /* GoogleService-Info.plist */; };
+		B8EB677821BD0292005F0848 /* Bindable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EB677721BD0292005F0848 /* Bindable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		26FE79E0433E7172995346BA /* Pods-swipMachingAPP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swipMachingAPP.release.xcconfig"; path = "Pods/Target Support Files/Pods-swipMachingAPP/Pods-swipMachingAPP.release.xcconfig"; sourceTree = "<group>"; };
+		2A754A632F9564506D5BF136 /* Pods_swipMachingAPP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swipMachingAPP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B82A443A218C23750061C750 /* swipMachingAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swipMachingAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B82A443D218C23750061C750 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B82A443F218C23750061C750 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B82A443F218C23750061C750 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		B82A4442218C23750061C750 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B82A4444218C23760061C750 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B82A4447218C23760061C750 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B82A4449218C23760061C750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B82A4450218C26020061C750 /* Extensions+UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extensions+UIView.swift"; sourceTree = "<group>"; };
+		B82A4453218C2CF00061C750 /* HomeBottomControlsStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeBottomControlsStackView.swift; sourceTree = "<group>"; };
+		B82A445521908CA90061C750 /* TopNavigationStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNavigationStackView.swift; sourceTree = "<group>"; };
+		B82A44572191CE610061C750 /* CardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsView.swift; sourceTree = "<group>"; };
+		B82A445A2191E12B0061C750 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		B82A445E219478E80061C750 /* CardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModel.swift; sourceTree = "<group>"; };
+		B82A44602194816B0061C750 /* Advertiser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advertiser.swift; sourceTree = "<group>"; };
+		B883A52A219B0888007FEB64 /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
+		B883A52C219B10B5007FEB64 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		B883A52E21A14F35007FEB64 /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
+		B883A53221A1B559007FEB64 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B8EB677721BD0292005F0848 /* Bindable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bindable.swift; sourceTree = "<group>"; };
+		F852D0D054D639B22D238330 /* Pods-swipMachingAPP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swipMachingAPP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swipMachingAPP/Pods-swipMachingAPP.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +57,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00E7D92A6FD86965CDE10CFF /* Pods_swipMachingAPP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		496480EA431BC99E9A64FCD0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F852D0D054D639B22D238330 /* Pods-swipMachingAPP.debug.xcconfig */,
+				26FE79E0433E7172995346BA /* Pods-swipMachingAPP.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B82A4431218C23750061C750 = {
 			isa = PBXGroup;
 			children = (
 				B82A443C218C23750061C750 /* swipMachingAPP */,
 				B82A443B218C23750061C750 /* Products */,
+				496480EA431BC99E9A64FCD0 /* Pods */,
+				DE4BB9AFB2C6EDFC4BC41E83 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +95,73 @@
 			isa = PBXGroup;
 			children = (
 				B82A443D218C23750061C750 /* AppDelegate.swift */,
-				B82A443F218C23750061C750 /* ViewController.swift */,
+				B82A445D219478C40061C750 /* ViewModel */,
+				B82A445C219477D60061C750 /* Controllers */,
+				B82A44592191E10A0061C750 /* Model */,
+				B82A4452218C2CBA0061C750 /* views */,
+				B82A444F218C25DD0061C750 /* Extensions */,
 				B82A4441218C23750061C750 /* Main.storyboard */,
 				B82A4444218C23760061C750 /* Assets.xcassets */,
 				B82A4446218C23760061C750 /* LaunchScreen.storyboard */,
 				B82A4449218C23760061C750 /* Info.plist */,
+				B883A53221A1B559007FEB64 /* GoogleService-Info.plist */,
 			);
 			path = swipMachingAPP;
+			sourceTree = "<group>";
+		};
+		B82A444F218C25DD0061C750 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B82A4450218C26020061C750 /* Extensions+UIView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B82A4452218C2CBA0061C750 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				B82A4453218C2CF00061C750 /* HomeBottomControlsStackView.swift */,
+				B82A445521908CA90061C750 /* TopNavigationStackView.swift */,
+				B82A44572191CE610061C750 /* CardsView.swift */,
+				B883A52C219B10B5007FEB64 /* CustomTextField.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		B82A44592191E10A0061C750 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B82A445A2191E12B0061C750 /* User.swift */,
+				B82A44602194816B0061C750 /* Advertiser.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B82A445C219477D60061C750 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B82A443F218C23750061C750 /* HomeController.swift */,
+				B883A52A219B0888007FEB64 /* RegistrationController.swift */,
+				B883A52E21A14F35007FEB64 /* RegistrationViewModel.swift */,
+				B8EB677721BD0292005F0848 /* Bindable.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B82A445D219478C40061C750 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B82A445E219478E80061C750 /* CardViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DE4BB9AFB2C6EDFC4BC41E83 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A754A632F9564506D5BF136 /* Pods_swipMachingAPP.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +171,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B82A444C218C23760061C750 /* Build configuration list for PBXNativeTarget "swipMachingAPP" */;
 			buildPhases = (
+				B0665328C889F66633A617F7 /* [CP] Check Pods Manifest.lock */,
 				B82A4436218C23750061C750 /* Sources */,
 				B82A4437218C23750061C750 /* Frameworks */,
 				B82A4438218C23750061C750 /* Resources */,
+				2F1E7508C1D3A10BC7BF9B17 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,19 +226,102 @@
 			files = (
 				B82A4448218C23760061C750 /* LaunchScreen.storyboard in Resources */,
 				B82A4445218C23760061C750 /* Assets.xcassets in Resources */,
+				B883A53321A1B559007FEB64 /* GoogleService-Info.plist in Resources */,
 				B82A4443218C23750061C750 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2F1E7508C1D3A10BC7BF9B17 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-swipMachingAPP/Pods-swipMachingAPP-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/JGProgressHUD/JGProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JGProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swipMachingAPP/Pods-swipMachingAPP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0665328C889F66633A617F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-swipMachingAPP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B82A4436218C23750061C750 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B82A4440218C23750061C750 /* ViewController.swift in Sources */,
+				B8EB677821BD0292005F0848 /* Bindable.swift in Sources */,
+				B82A44582191CE610061C750 /* CardsView.swift in Sources */,
+				B883A52F21A14F35007FEB64 /* RegistrationViewModel.swift in Sources */,
+				B883A52D219B10B5007FEB64 /* CustomTextField.swift in Sources */,
+				B82A4440218C23750061C750 /* HomeController.swift in Sources */,
+				B82A44612194816B0061C750 /* Advertiser.swift in Sources */,
+				B82A4454218C2CF00061C750 /* HomeBottomControlsStackView.swift in Sources */,
 				B82A443E218C23750061C750 /* AppDelegate.swift in Sources */,
+				B82A445F219478E80061C750 /* CardViewModel.swift in Sources */,
+				B82A4451218C26020061C750 /* Extensions+UIView.swift in Sources */,
+				B82A445621908CA90061C750 /* TopNavigationStackView.swift in Sources */,
+				B883A52B219B0889007FEB64 /* RegistrationController.swift in Sources */,
+				B82A445B2191E12B0061C750 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +465,7 @@
 		};
 		B82A444D218C23760061C750 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F852D0D054D639B22D238330 /* Pods-swipMachingAPP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +484,7 @@
 		};
 		B82A444E218C23760061C750 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26FE79E0433E7172995346BA /* Pods-swipMachingAPP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

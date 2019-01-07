@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>571284514752-j03gu28pdonskthb9tupkun3hl9380bh.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.571284514752-j03gu28pdonskthb9tupkun3hl9380bh</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDsAqYKgU4US9TGIjutBRVQ4O7dwSIQxNM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>571284514752</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>jp.lp.takuya.oomuro.swipMachingAPP</string>
+	<key>PROJECT_ID</key>
+	<string>swipmachingapp</string>
+	<key>STORAGE_BUCKET</key>
+	<string>swipmachingapp.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:571284514752:ios:72f8d1e3f061eee2</string>
+	<key>DATABASE_URL</key>
+	<string>https://swipmachingapp.firebaseio.com</string>
+</dict>
+</plist>
